@@ -20,7 +20,10 @@ public class Program {
     System.out.println("Quantity: ");
     product.quantity = store.nextInt();
 
+
+    
     // System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+    System.out.println(product);
 
     store.close();
   }
